@@ -1,8 +1,9 @@
-# Peak v0.1
+# Peak
 
 Utility Belt for Salesforce Apex. 
 Inspired by underscorejs, attempts to remove excessive for loops in code.
 
+Current Version: v0.1
 
 ## Example
 

@@ -19,11 +19,13 @@ public class Peak {
 			if (oldMap != null) {
 				
 				Id sObjId = sObj.Id;
-				Object oldVal;
+				
 				
 				//Get updated object previous state
 				sObject oldSobj = oldMap.get(sObjId);
-
+				Object oldVal = oldSobj.get(fieldName);
+				
+				
 				//Is Updated and Changed
 				if ( newVal != oldVal ) {
 					compareFilter(filteredList, sObj, newVal, compareSet, inclusiveCompare);
